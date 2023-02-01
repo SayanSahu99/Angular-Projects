@@ -7,8 +7,7 @@ import { Component, Input } from '@angular/core';
 })
 export class EvenComponent {
 
-  @Input("even")
-  evenNumber!: number;
+  @Input("even") evenNumber!: number;
 
   constructor() { }
 
